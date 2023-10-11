@@ -1,31 +1,25 @@
-.mainTitle{
-font-size: 100px;
-margin-left: 360px;
-margin-top: 20px;
+.container{
+   display: flex;
+   align-items: center;
+   gap: 50px;
+   margin-bottom: 50px;
+   margin-left: 50px; 
 }
 
-.selectTitle {
-    margin: 20px 0px;
-    margin-left: 430px;
-    margin-bottom: 50px;
-    font-size: 50px;
+.image {
+    object-fit: cover;
 }
 
-.items{
-    display: flex;
-    gap: 50px;
-}
-.items2{
-    display: flex;
-    gap: 50px;
-    margin-top: 20px;
+
+.content {
+
 }
 
-.item{
-    border: 5px solid #bbb;
-    border-radius: 5px;
-    width: 300px;
-    height: 400px;
-    position: relative;
-    margin-left: 100px;
+.title{
+    margin-bottom: 10px;
+}
+
+.desc{
+    font-size: 18px;
+    color: #999;
 }
