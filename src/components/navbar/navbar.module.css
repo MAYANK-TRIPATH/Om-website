@@ -1,0 +1,21 @@
+.container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.links :hover {
+    color: #FF0000; /* Change to your desired hover color */
+}

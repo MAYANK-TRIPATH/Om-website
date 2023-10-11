@@ -1,0 +1,31 @@
+.mainTitle{
+    font-size: 100px;
+    margin-left: 360px;
+    margin-top: 20px;
+    }
+    
+    .selectTitle {
+        margin: 20px 0px;
+        margin-left: 440px;
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+    
+    .items{
+        display: flex;
+        gap: 50px;
+    }
+    .items2{
+        display: flex;
+        gap: 50px;
+        margin-top: 20px;
+    }
+    
+    .item{
+        border: 5px solid #bbb;
+        border-radius: 5px;
+        width: 300px;
+        height: 400px;
+        position: relative;
+        margin-left: 100px;
+    }
