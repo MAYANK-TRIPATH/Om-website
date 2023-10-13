@@ -1,0 +1,23 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:600px; /* Set the desired height for the container */
+  }
+  
+  .image {
+    border: 10px solid #fff;
+    box-shadow: 0 2px 5px #aaa;
+    transition: transform 0.5s;
+  }
+  
+  /* Rest of your CSS remains the same */
+  

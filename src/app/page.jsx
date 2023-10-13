@@ -29,9 +29,11 @@ export default function Home() {
 
       </div>
       <br />
+      <br /> 
       <div>
         <Detail />
       </div>
+      <br />
       <br />
       <div>
         <Testimonial />
