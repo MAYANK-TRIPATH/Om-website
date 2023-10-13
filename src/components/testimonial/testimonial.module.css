@@ -7,19 +7,19 @@
   .card {
     width: calc(100% - 2px); /* Ensure each card takes one-third of the container width */
     padding: 10px;
-    gap: 10px;
+    gap: 40px;
     box-sizing: border-box;
     flex-direction: row;
     display: flex;
-    animation: slideIn 8s linear infinite;
+    animation: slideIn 10s linear infinite;
   }
  
   @keyframes slideIn {
     from {
-      transform: translateX(100%); /* Start from the right */
+      transform: translateX(70%); /* Start from the right */
     }
     to {
-      transform: translateX(0); /* Move to the original position */
+      transform: translateX(-90%); /* Move to the original position */
     }
   }
 

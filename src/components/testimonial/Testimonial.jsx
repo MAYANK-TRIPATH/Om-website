@@ -40,7 +40,7 @@ const Testimonial = () => {
   const cardContainerRef = useRef(null);
 
   // Function to reset animation after completion
-  const resetAnimation = () => {
+   const resetAnimation = () => {
     if (cardContainerRef.current) {
       cardContainerRef.current.classList.remove(styles.slideIn);
       void cardContainerRef.current.offsetWidth; // Trigger reflow to reset the animation
