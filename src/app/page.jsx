@@ -12,15 +12,13 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.item}>
           <h1 className={styles.title}>
-            You know that i am your Daddy!
+          Empower your future with OM Institute !
           </h1>
           <p className={styles.desc}>
-            If you want to get success start calling me daddy with all your heart.
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus nesciunt
-            culpa odio temporibus atque odit architecto magnam.
+          Unlocking various opportunities through specialized Computer Courses and achieving excellence with Over 1000+ selections in State-Level examinations like RO/ARO/UPSSSC
           </p>
         
-          <Button url="/contact" text="Register yourself"/>
+          <Button url="/contact" text="Enroll Now !!"/>
           
         </div>
         <div className={styles.item}>
