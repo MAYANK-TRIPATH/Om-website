@@ -8,6 +8,7 @@ import Button from '@/components/Button/Button';
 export default function Home() {
   return (
 
+
     <div>
       <div className={styles.container}>
         <div className={styles.item}>
@@ -24,7 +25,6 @@ export default function Home() {
         <div className={styles.item}>
           <Image src={Hero} alt="Hero" className={styles.img} />
         </div>
-
       </div>
       <br />
       <br /> 
