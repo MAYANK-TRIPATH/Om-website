@@ -15,7 +15,9 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    font-weight: 600;
 }
+
 .links :hover {
-    color: #FF0000; /* Change to your desired hover color */
+    color: #ff3058; 
 }

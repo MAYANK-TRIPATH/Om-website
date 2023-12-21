@@ -25,7 +25,6 @@ export default function Home() {
         <div className={styles.item}>
           <Image src={Hero} alt="Hero" className={styles.img} />
         </div>
-
       </div>
       <br />
       <br /> 
