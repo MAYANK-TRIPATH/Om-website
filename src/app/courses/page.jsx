@@ -2,14 +2,14 @@ import React from 'react';
 import styles from './page.module.css'
 import Link from "next/link";
 import Image from "next/image"
-import Choose1 from "public/Choose1.jpg"
+import Choose6 from "public/Choose6.jpg"
 
 const Courses = () => {
   return (
     <div className={styles.mainContainer}>
       <Link href="/" className={styles.container}>
         <div className={styles.imageContainer}>
-          <Image src={Choose1} alt="" width={400} height={250} className={styles.image}/>
+          <Image src={Choose6} alt="" width={400} height={250} className={styles.image}/>
         </div>
         <div className={styles.content}>
           <h1 className={styles.title}>Course1</h1>
@@ -21,7 +21,7 @@ const Courses = () => {
       </Link>
       <Link href="/" className={styles.container}>
         <div className={styles.imageContainer}>
-          <Image src={Choose1} alt="" width={400} height={250} className={styles.image}/>
+          <Image src={Choose6} alt="" width={400} height={250} className={styles.image}/>
         </div>
         <div className={styles.content}>
           <h1 className={styles.title}>Course2</h1>
@@ -32,7 +32,7 @@ const Courses = () => {
       </Link>
       <Link href="/" className={styles.container}>
         <div className={styles.imageContainer}>
-          <Image src={Choose1} alt="" width={400} height={250} className={styles.image}/>
+          <Image src={Choose6} alt="" width={400} height={250} className={styles.image}/>
         </div>
         <div className={styles.content}>
           <h1 className={styles.title}>Course3</h1>
@@ -43,7 +43,7 @@ const Courses = () => {
       </Link>
       <Link href="/" className={styles.container}>
         <div className={styles.imageContainer}>
-          <Image src={Choose1} alt="" width={400} height={250} className={styles.image}/>
+          <Image src={Choose6} alt="" width={400} height={250} className={styles.image}/>
         </div>
         <div className={styles.content}>
           <h1 className={styles.title}>Course4</h1>
