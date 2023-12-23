@@ -12,7 +12,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    // put credentails in .env file for security.
+    // put credentials in .env file for security.
     emailjs
       .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'jCQV83uOwjRpzn8Ll')
       .then(
