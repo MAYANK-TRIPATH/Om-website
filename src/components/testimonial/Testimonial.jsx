@@ -3,34 +3,34 @@
 import React,{ useEffect, useRef } from 'react';
 import styles from './testimonial.module.css'
 import Card from '@/components/card/Card'
-import Choose1 from "public/Choose1.jpg"
-import Choose2 from "public/Choose2.jpg"
-import Choose3 from "public/Choose3.jpg"
-import Choose4 from "public/Choose4.jpg"
+import Choose9 from "public/Choose9.jpg"
+import Choose8 from "public/Choose8.jpg"
+import Choose7 from "public/Choose7.jpg"
+import Choose6 from "public/Choose6.jpg"
 
 const Testimonial = () => {
   const test = [
     {
       title: 'AI-Image Generator',
-      imageUrl: Choose1,
+      imageUrl: Choose9,
       body: "Developed a full-stack AI Image Generator using MERN stack for generating unique images based on user inputs and pre-defined styles.", 
       
     },
     {
       title: 'Youtube_clone',
-      imageUrl: Choose2,
+      imageUrl: Choose8,
       body: 'Develop a fully functional YouTube clone web application using modern front-end technologies and Rapid API.',
       
     },
     {
       title: 'Real-Estate Site',
-      imageUrl: Choose3,
+      imageUrl: Choose7,
       body: 'Designed and developed a Real Estate application using ReactJS and TailwindCSS. User-friendly and intuitive application',
       
     },
     {
       title: 'Crypto-Trans.',
-      imageUrl: Choose4,
+      imageUrl: Choose6,
       body: 'It\'s a WEB 3.0 based WebApp that has a feature of transaction of Ethereum. UI is made by using ReactJS, Tailwind CSS, Metamask Wallet',
       
     },

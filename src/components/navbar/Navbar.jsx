@@ -36,11 +36,7 @@ const links = [
     title: "Gallery",
     url: "/gallery",
   },
-  {
-    id: 5,
-    title: "Dashboard",
-    url: "/dashboard",
-  },
+  
 ];
 
 const Navbar = () => {
