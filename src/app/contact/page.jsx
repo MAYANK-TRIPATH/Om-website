@@ -2,7 +2,7 @@
 
 import React, { useRef, useState } from 'react';
 import styles from './page.module.css';
-import callus from 'public/callus.png';
+import callus from 'public/callus.svg';
 import Image from 'next/image';
 import emailjs from '@emailjs/browser';
 

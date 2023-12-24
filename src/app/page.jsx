@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from './page.module.css';
-import Hero from "public/hero.png";
+import Hero from "public/hero.svg";
 import Detail from '@/components/detail/Detail'
 import Testimonial from '@/components/testimonial/Testimonial'
 import Button from '@/components/Button/Button';
