@@ -2,7 +2,7 @@
 
 import React, { useRef, useState } from 'react';
 import styles from './page.module.css';
-import callus from 'public/callus.png';
+import callus from 'public/callus.svg';
 import Image from 'next/image';
 import emailjs from '@emailjs/browser';
 
@@ -12,7 +12,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    // put credentails in .env file for security.
+    // put credentials in .env file for security.
     emailjs
       .sendForm('service_5ykfz0k', 'template_k3v79mn', form.current, 'jCQV83uOwjRpzn8Ll')
       .then(
