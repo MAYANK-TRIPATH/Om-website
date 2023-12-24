@@ -4,7 +4,6 @@ import Hero from "public/hero.svg";
 import Detail from '@/components/detail/Detail'
 import Testimonial from '@/components/testimonial/Testimonial'
 import Button from '@/components/Button/Button';
-import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
@@ -38,7 +37,6 @@ export default function Home() {
         <Testimonial />
       </div>
       <br />
-
     </div>
 
 
