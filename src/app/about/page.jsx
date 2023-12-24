@@ -116,8 +116,9 @@ Om Computer Institute stands not only as a provider of education but as a cataly
 
 Embark on a learning journey with Om Computer Institute, where education knows no bounds, and every student's dream is a step closer to reality.</p>
     <br/>
-    <Button url="/contact" text="Contact"/>
-   </div>
+    <h1 className={styles.title}><Button url="/contact" text="Contact"/></h1>
+    
+  </div>
   )
 }
 
