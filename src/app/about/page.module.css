@@ -4,24 +4,25 @@
 
 .imgContainer{
     width: 100%;
-    height: 300px;
+    height: 100px;
     position: relative;
 } 
 
 .img{
     object-fit: cover;
     width: 100%;
-    height: 600px;
+    height: 300px;
     margin-top: 5px;
     filter: grayscale(100%);
 }
 
 .imgText{
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    top: 180px;
+    left: 45px;
     padding: 30px;
-    color: white;
+    color: #ff3058;
+    font-size: large;
 }
 
 .textContainer{
@@ -29,6 +30,15 @@
     gap: 100px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.imgDesc{
+font-size: xx-large;
+padding-top:7px ;
+padding-bottom: 10px;
+margin-left: 80px;
+margin-right: 100px;
+color: #ff3058;
 }
 
 .item{
@@ -41,6 +51,6 @@
 
 .desc{
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 350;
     text-align: justify;
 }
