@@ -16,7 +16,7 @@ const Footer = () => {
         
         <a href='/about'>About Us</a>
         <a href='/'>Privacy Policy</a>
-        <a href="tel:+916394788774" className="phone-link" aria-label="Call us">&#x260E; Call-Us</a>
+        <a href="tel:+91 75708 36804" className="phone-link" aria-label="Call us">&#x260E; Call-Us</a>
         <a href='/courses'>Courses</a>
         <a href='/link1'>Terms of Use</a>
         <a href="https://www.instagram.com/oci.skill/" className="instagram-link" aria-label="Instagram"> Instagram</a>

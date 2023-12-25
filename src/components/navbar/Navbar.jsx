@@ -40,6 +40,7 @@ const links = [
 ];
 
 const Navbar = () => {
+  
   return (
     <div className={styles.container}>
       <a href="/">
