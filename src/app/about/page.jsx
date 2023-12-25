@@ -16,9 +16,10 @@ const About = () => {
       alt="websites"
       className={styles.img}
       />
-    <div className={styles.imgText}>
-      <h1 className={styles.imgTitle}>Om Computer Institute</h1>
-      </div> 
+      
+    {/* <div className={styles.imgText}> */}
+      {/* <h1 className={styles.imgTitle}>Om Computer Institute</h1> */}
+      {/* </div>  */}
 
       <h2 className={styles.imgDesc}> Empowering Dreams: The Journey of Om Computer Institute in Prayagraj</h2>
     </div>

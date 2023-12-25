@@ -14,7 +14,10 @@ const Contact = () => {
     e.preventDefault();
     // put credentials in .env file for security.
     emailjs
-      .sendForm('service_5ykfz0k', 'template_k3v79mn', form.current, 'jCQV83uOwjRpzn8Ll')
+      .sendForm(process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        form.current,
+        process.env.NEXT_PUBLIC_EMAILJS_USER_ID)
       .then(
         (result) => {
           console.log(result.text);

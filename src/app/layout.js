@@ -6,6 +6,7 @@ import { ThemeProvider } from '../../context/ThemeContext'
 import Head from 'next/head'
 
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -17,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en"> 
     <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.ico" />
       </Head>
       <body className={inter.className}>
         <ThemeProvider>
