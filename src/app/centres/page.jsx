@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './page.module.css'
 import Link from "next/link";
 
+
 const Centres = () => {
   return (
     <div className={styles.container}>
@@ -10,6 +11,7 @@ const Centres = () => {
     <div className={styles.items}>
       <Link href="/#" className={styles.item}>
         <span className={styles.title}>Choose 1</span>
+       
       </Link>
       <Link href="/#" className={styles.item}>
         <span className={styles.title}>Choose 2</span>
