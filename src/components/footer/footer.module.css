@@ -1,8 +1,28 @@
+
 .container {
-  height: 60px;
-  margin-left: 140px;
+  margin-top: 20px;
+  padding: 15px 15px 15px 15px;
+  height: 250px;                                                     
   font-size: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between ;
+  background-color: #330a12;
+  border-radius: 20px 20px 0px 0px;  
+
+}
+
+.linkGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 25px; 
+  justify-content: space-between;
+}
+
+
+.logoContainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /* Add styles for logo container, e.g., margin, padding, etc. */
 }

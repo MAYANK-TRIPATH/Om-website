@@ -1,12 +1,46 @@
 import React from 'react';
 import styles from "./footer.module.css";
+import Image from 'next/image';
 
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <div className={styles.container}>
-      <div> Copyright © {currentYear} Om Skills Private Limited. All rights reserved</div>
+      <div className={styles.linkGrid}>
+        <b>COMPANY</b>
+        <b>LEGAL</b>
+        <b>CONTACT US</b>
+        
+        
+        
+        <a href='/about'>About Us</a>
+        <a href='/'>Privacy Policy</a>
+        <a href="tel:+916394788774" class="phone-link" aria-label="Call us">&#x260E; Call-Us</a>
+        <a href='/courses'>Courses</a>
+        <a href='/link1'>Terms of Use</a>
+        <a href="https://www.instagram.com/oci.skill/" class="instagram-link" aria-label="Instagram"> Instagram</a>
+
+        <a href='/centres'>Centres</a>
+        <a href='/centres'>Sitemap</a>
+        <a href="https://www.linkedin.com/company/om-skills-institute/about/" class="linkedin-link" aria-label="LinkedIn">LinkedIN</a>
+
+
+        <a href='/centres'>Gallery</a>
+
+      </div>
+
+      <a href='/'>
+        <Image src='/foot-img.svg' alt="foot-img" width={350} height={150}/>
+      </a>
+
+      <div>
+      
+      <a href="/">
+      <Image src="/logo.png"  alt="logo" width ={100} height={100}/>
+      </a><br/><br/>
+        Copyright &#169; {currentYear} Om Skills Private Limited | All rights reserved
+        </div>
       </div>
   )
 }

@@ -22,7 +22,9 @@ const About = () => {
 
       <h2 className={styles.imgDesc}> Empowering Dreams: The Journey of Om Computer Institute in Prayagraj</h2>
     </div>
+    
     <div className={styles.textContainer}>
+      
       <div className={styles.item}>
         <h1 className={styles.title}>Who Are We?</h1>
         <p className={styles.desc}>
@@ -116,7 +118,14 @@ Om Computer Institute stands not only as a provider of education but as a cataly
 
 Embark on a learning journey with Om Computer Institute, where education knows no bounds, and every student's dream is a step closer to reality.</p>
     <br/>
-    <Button url="/contact" text="Contact"/>
+    <div className={styles.element}>
+    <Button url="/contact" text="Contact Us"/>
+    <Image src='/about-img.svg' alt="about-img" width={400} height={200} />
+
+   
+    </div>
+   
+
    </div>
   )
 }
