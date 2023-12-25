@@ -28,4 +28,11 @@
         height: 400px;
         position: relative;
         margin-left: 100px;
+
+    }
+    .item:nth-child(1) {
+        background: url("/Salori.jpg");
+    }
+    .item:nth-child(2) {
+        background: url("/Rajapur.jpg");
     }
