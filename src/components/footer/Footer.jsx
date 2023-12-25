@@ -16,14 +16,14 @@ const Footer = () => {
         
         <a href='/about'>About Us</a>
         <a href='/'>Privacy Policy</a>
-        <a href="tel:+916394788774" class="phone-link" aria-label="Call us">&#x260E; Call-Us</a>
+        <a href="tel:+916394788774" className="phone-link" aria-label="Call us">&#x260E; Call-Us</a>
         <a href='/courses'>Courses</a>
         <a href='/link1'>Terms of Use</a>
-        <a href="https://www.instagram.com/oci.skill/" class="instagram-link" aria-label="Instagram"> Instagram</a>
+        <a href="https://www.instagram.com/oci.skill/" className="instagram-link" aria-label="Instagram"> Instagram</a>
 
         <a href='/centres'>Centres</a>
         <a href='/centres'>Sitemap</a>
-        <a href="https://www.linkedin.com/company/om-skills-institute/about/" class="linkedin-link" aria-label="LinkedIn">LinkedIN</a>
+        <a href="https://www.linkedin.com/company/om-skills-institute/about/" className="linkedin-link" aria-label="LinkedIn">LinkedIN</a>
 
 
         <a href='/centres'>Gallery</a>
