@@ -9,10 +9,28 @@
   }
   
   .title {
-    font-size: 48px;
-    margin-bottom: 40px;
-  }
-  
+    font-size: 65px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 45px;
+    /*  initial color */
+    color: #ff3058;
+    /* Use animation for color transition */
+    animation: colorTransition 3s infinite linear;
+}
+
+/* Define the color transition animation */
+@keyframes colorTransition {
+    0% {
+        color: white ;
+    }
+    50% {
+        color: #ff5979 ;
+    }
+    100% {
+        color: #ff3058 ;
+    }
+}
   .content {
     display: flex;
     flex-direction: row; /* Display image and form side by side */
@@ -58,9 +76,7 @@
     border: 1px solid #ccc;
     border-radius: 4px
   }
-  
-  .button {
-    background-color: red;
-    color: white;
-    padding: 10px 20px; 
+  .button{
+    margin-top: 20px;
+    margin-left: -90px;
   }

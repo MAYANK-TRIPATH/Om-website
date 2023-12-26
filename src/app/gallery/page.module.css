@@ -1,4 +1,26 @@
+.mainTitle {
+    font-size: 65px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    /*  initial color */
+    color: #ff3058;
+    /* Use animation for color transition */
+    animation: colorTransition 3s infinite linear;
+}
 
+/* Define the color transition animation */
+@keyframes colorTransition {
+    0% {
+        color: white ;
+    }
+    50% {
+        color: #ff5979 ;
+    }
+    100% {
+        color: #ff3058 ;
+    }
+}
 .items{
     display: flex;
     gap: 50px;
