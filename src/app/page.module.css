@@ -42,3 +42,13 @@
   font-weight: 350;
 }
 
+@media (max-width:600px){
+.container{
+  flex-direction: column-reverse;
+}
+.img{
+  margin-top: 10px;
+  margin-bottom: -100px;
+}
+
+}

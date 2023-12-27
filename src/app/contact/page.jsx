@@ -5,7 +5,6 @@ import styles from './page.module.css';
 import callus from 'public/callus.svg';
 import Image from 'next/image';
 import emailjs from '@emailjs/browser';
-import Button from '@/components/Button/Button';
 
 const Contact = () => {
   const form = useRef();
@@ -56,9 +55,7 @@ const Contact = () => {
             rows="10"
           ></textarea>
           <br />
-          <div className={styles.button}>
-          <Button url="/contact" text="Contact Us"/>
-          </div>
+          <input type="submit" value="Send" className={styles.button} />
         </form>
       </div>
       {showSuccess && (
