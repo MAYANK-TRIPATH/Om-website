@@ -22,15 +22,7 @@
     background-size: cover !important;
 }
 
-.item {
-    width: 100%;
-    margin-bottom: 20px;
-}
 
-.item1, .item2 {
-    width: 100%;
-    margin-bottom: 30px;
-}
 
 .item:nth-child(1) {
     background: url("/Choose1.jpg") center/cover;
@@ -65,34 +57,3 @@
 }
 
 .item2:nth-child(3) {
-    background: url("/Choose9.jpg") center/cover;
-}
-
-/* Media Query for Tablets and Larger Screens */
-@media (min-width: 600px) {
-    .mainTitle {
-        font-size: 4rem;
-    }
-
-    .items, .items2 {
-        flex-direction: row;
-        margin-top: 0;
-    }
-
-    .item, .item1, .item2 {
-        width: 45%; /* Adjust the percentage as needed */
-        margin: 0 2.5%;
-    }
-}
-
-/* Media Query for Larger Screens */
-@media (min-width: 1024px) {
-    .mainTitle {
-        font-size: 5rem;
-    }
-
-    .item, .item1, .item2 {
-        width: 30%; /* Adjust the percentage as needed */
-        margin: 0 1.5%;
-    }
-}

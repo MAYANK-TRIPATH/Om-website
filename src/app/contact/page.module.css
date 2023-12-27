@@ -79,4 +79,11 @@
   .button{
     margin-top: 20px;
     margin-left: -90px;
+    background-color: #ff3058;
+  }
+  
+  @media(max-width:600px){
+    .content{
+      flex-direction: column;
+    }
   }
