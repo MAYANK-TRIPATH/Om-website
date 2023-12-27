@@ -1,26 +1,41 @@
 /* testimonial.module.css */
-.container {
-    text-align: center;
-    margin: 20px;
-  }
-   
-  .card {
-    width: calc(100% - 2px); /* Ensure each card takes one-third of the container width */
-    padding: 10px;
-    gap: 40px;
-    box-sizing: border-box;
-    flex-direction: row;
-    display: flex;
-    animation: slideIn 10s linear infinite;
-  }
- 
-  @keyframes slideIn {
-    from {
-      transform: translateX(70%); /* Start from the right */
-    }
-    to {
-      transform: translateX(-90%); /* Move to the original position */
-    }
-  }
 
-  
+/* Common styles for both large and small screens */
+.container {
+  text-align: center;
+  margin: 20px;
+}
+
+.card {
+  width: calc(100% - 2px); /* Ensure each card takes one-third of the container width */
+  padding: 10px;
+  gap: 40px;
+  box-sizing: border-box;
+  flex-direction: row;
+  display: flex;
+}
+
+/* Animation only for large screens */
+@keyframes slideIn {
+  from {
+    transform: translateX(70%); /* Start from the right */
+  }
+  to {
+    transform: translateX(-90%); /* Move to the original position */
+  }
+}
+
+/* Apply animation on large screens */
+@media screen and (min-width: 768px) {
+  .card {
+    animation: slideIn 12s linear infinite;
+  }
+}
+
+/* Styles for mobile screens */
+@media screen and (max-width: 767px) {
+  .card {
+    flex-direction: column;
+    animation: none; /* Remove animation for mobile screens */
+  }
+}
