@@ -40,7 +40,9 @@ const links = [
 ];
 
 const Navbar = () => {
+
   
+
   return (
     <div className={styles.container}>
       <a href="/">
@@ -53,6 +55,8 @@ const Navbar = () => {
             {link.title}
           </Link>
         ))}
+
+          
         <DarkModeToggle/>
       </div>
     </div>

@@ -1,7 +1,7 @@
 
 .container {
   margin-top: 20px;
-  padding: 15px 15px 15px 15px;
+  /* padding: 15px 15px 15px 15px; */
   height: 250px;                                                     
   font-size: 15px;
   display: flex;
@@ -9,6 +9,7 @@
   justify-content: space-between ;
   background-color: #80182c;
   border-radius: 20px 20px 0px 0px;  
+  padding: 30px;
 }
 
 .linkGrid {
@@ -16,12 +17,38 @@
   grid-template-columns: repeat(3, 1fr); 
   gap: 25px; 
   justify-content: space-between;
-}
 
+}
 
 .logoContainer {
   position: absolute;
   bottom: 0;
   right: 0;
   /* Add styles for logo container, e.g., margin, padding, etc. */
+}
+
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  .container {
+      height:fit-content;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .linkGrid {
+      margin-bottom: 20px;
+      gap: 5px;
+  }
+
+  .linkGrid b {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  .linkGrid a {
+      margin-bottom: 10px;
+  }
+
+  /* Add any other responsive styles as needed */
 }

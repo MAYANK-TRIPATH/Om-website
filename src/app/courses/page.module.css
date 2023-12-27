@@ -1,9 +1,9 @@
 .container{
-   display: flex;
-   align-items: center;
-   gap: 50px;
-   margin-bottom: 50px;
-   margin-left: 50px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
 }
 
 .image {
@@ -15,12 +15,25 @@
     font-size: 65px;
     text-align: center;
     margin-top: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     /*  initial color */
     color: #ff3058;
     /* Use animation for color transition */
     animation: colorTransition 3s infinite linear;
 }
+
+/* Responsive styles for mobile */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column-reverse;
+        /* margin-left: 0; */
+    }
+
+    .image {
+        max-width: 300px; /* Adjust the maximum width as needed */
+    }
+}
+
 
 /* Define the color transition animation */
 @keyframes colorTransition {

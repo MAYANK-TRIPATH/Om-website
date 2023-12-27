@@ -31,7 +31,7 @@ const Footer = () => {
       </div>
 
       <a href='/'>
-        <Image src='/foot-img.svg' alt="foot-img" width={350} height={150}/>
+        <Image src='/foot-img.svg' alt="foot-img" width={300} height={150}/>
       </a>
 
       <div>

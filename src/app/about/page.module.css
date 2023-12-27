@@ -64,3 +64,17 @@ color: #e62b4f;
     gap: 200px;
     
 }
+
+/* Responsive styles for mobile */
+@media (max-width: 600px) {
+    .textContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .element {
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+}
