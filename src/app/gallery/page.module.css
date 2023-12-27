@@ -1,89 +1,98 @@
 .mainTitle {
-    font-size: 65px;
+    font-size: 3rem;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 25px;
-    /*  initial color */
     color: #ff3058;
-    /* Use animation for color transition */
     animation: colorTransition 3s infinite linear;
 }
 
-/* Define the color transition animation */
-@keyframes colorTransition {
-    0% {
-        color: white ;
-    }
-    50% {
-        color: #ff5979 ;
-    }
-    100% {
-        color: #ff3058 ;
-    }
-}
-.items{
+.items, .items2 {
     display: flex;
-    gap: 50px;
-    margin-top: 40px;
-}
-.items2{
-    display: flex;
-    gap: 50px;
-    margin-top: 30px;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+    margin-top: 40px; /* Adjust margin as needed */
 }
 
-.item{
-    border: 5px solid #bbb;
-    border-radius: 5px;
-    width: 300px;
+.item, .item1, .item2 {
+    border: 3px solid #bbb;
+    border-radius: 10px;
     height: 400px;
-    position: relative;
-    margin-left: 100px;
     background-size: cover !important;
 }
-.item1{
-    border: 5px solid #bbb;
-    border-radius: 5px;
-    width: 300px;
-    height: 400px;
-    position: relative;
-    margin-left: 100px;
-    background-size: cover !important;
+
+.item {
+    width: 100%;
+    margin-bottom: 20px;
 }
-.item2{
-    border: 5px solid #bbb;
-    border-radius: 5px;
-    width: 315px;
-    height: 400px;
-    position: relative;
-    margin-left: 100px;
-    background-size: cover !important;
+
+.item1, .item2 {
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 .item:nth-child(1) {
-    background: url("/Choose1.jpg");
+    background: url("/Choose1.jpg") center/cover;
 }
+
 .item:nth-child(2) {
-    background: url("/Choose2.jpg");
+    background: url("/Choose2.jpg") center/cover;
 }
+
 .item:nth-child(3) {
-    background: url("/Choose3.jpg");
+    background: url("/Choose3.jpg") center/cover;
 }
+
 .item1:nth-child(1) {
-    background: url("/Choose4.jpg");
+    background: url("/Choose4.jpg") center/cover;
 }
+
 .item1:nth-child(2) {
-    background: url("/Choose5.jpg");
+    background: url("/Choose5.jpg") center/cover;
 }
+
 .item1:nth-child(3) {
-    background: url("/Choose6.jpg");
+    background: url("/Choose6.jpg") center/cover;
 }
+
 .item2:nth-child(1) {
-    background: url("/Choose7.jpg");
+    background: url("/Choose7.jpg") center/cover;
 }
+
 .item2:nth-child(2) {
-    background: url("/Choose8.jpg");
+    background: url("/Choose8.jpg") center/cover;
 }
+
 .item2:nth-child(3) {
-    background: url("/Choose9.jpg");
+    background: url("/Choose9.jpg") center/cover;
+}
+
+/* Media Query for Tablets and Larger Screens */
+@media (min-width: 600px) {
+    .mainTitle {
+        font-size: 4rem;
+    }
+
+    .items, .items2 {
+        flex-direction: row;
+        margin-top: 0;
+    }
+
+    .item, .item1, .item2 {
+        width: 45%; /* Adjust the percentage as needed */
+        margin: 0 2.5%;
+    }
+}
+
+/* Media Query for Larger Screens */
+@media (min-width: 1024px) {
+    .mainTitle {
+        font-size: 5rem;
+    }
+
+    .item, .item1, .item2 {
+        width: 30%; /* Adjust the percentage as needed */
+        margin: 0 1.5%;
+    }
 }
