@@ -21,18 +21,7 @@
 
 .links :hover {
     color: #ff3058; 
-}
-@media (max-width: 768px) {
-    .container {
-      padding: 0 10px 10px 10px; 
-    }
-
-    .logo {
-    font-size: 16px;
-    }
-
-    .links {
-    gap: 10px;
-    font-size: 14px;
-    }
+    text-decoration: underline;
+    text-underline-offset:5px;
+    text-underline-position: below;
 }

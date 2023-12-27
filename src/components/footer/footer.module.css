@@ -38,6 +38,7 @@
 
   .linkGrid {
       margin-bottom: 20px;
+      gap: 5px;
   }
 
   .linkGrid b {
