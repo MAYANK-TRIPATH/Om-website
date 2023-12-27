@@ -1,58 +1,68 @@
-
+/* Mobile First Styles */
 .mainTitle {
-    font-size: 65px;
+    font-size: 3rem;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 25px;
-    /*  initial color */
     color: #ff3058;
-    /* Use animation for color transition */
     animation: colorTransition 3s infinite linear;
 }
 
-/* Define the color transition animation */
-@keyframes colorTransition {
-    0% {
-        color: white ;
+.selectTitle {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.items, .items2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 35px;
+    align-items: center;
+}
+
+.item {
+    width: 100%;
+    box-sizing: border-box;
+    border: 3px solid #bbb;
+    border-radius: 10px;
+    height: 400px;
+    margin: 0 0 20px 0;
+}
+
+.item:nth-child(1) {
+    background: url("/Salori.jpg") center/cover;
+}
+
+.item:nth-child(2) {
+    background: url("/Rajapur.jpg") center/cover;
+}
+
+/* Media Query for Tablets and Larger Screens */
+@media (min-width: 768px) {
+    .mainTitle {
+        font-size: 4rem;
     }
-    50% {
-        color: #ff5979 ;
+
+    .items, .items2 {
+        flex-direction: row;
     }
-    100% {
-        color: #ff3058 ;
+
+    .item {
+        width: 45%; /* Adjust the percentage as needed */
+        margin: 0 2.5%;
     }
 }
-    
-    .selectTitle {
-        /* margin: 20px 0px; */
-        /* margin-left: 440px; */
-        margin-bottom: 50px;
-        font-size: 40px;
-        text-align: center;
-    }
-    
-    .items{
-        display: flex;
-        gap: 50px;
-    }
-    .items2{
-        display: flex;
-        gap: 50px;
-        margin-top: 20px;
-    }
-    
-    .item{
-        border: 5px solid #bbb;
-        border-radius: 5px;
-        width: 300px;
-        height: 400px;
-        position: relative;
-        margin-left: 100px;
 
+/* Media Query for Larger Screens */
+@media (min-width: 1024px) {
+    .mainTitle {
+        font-size: 5rem;
     }
-    .item:nth-child(1) {
-        background: url("/Salori.jpg");
+
+    .item {
+        width: 30%; /* Adjust the percentage as needed */
+        margin: 0 1.5%;
     }
-    .item:nth-child(2) {
-        background: url("/Rajapur.jpg");
-    }
+}
