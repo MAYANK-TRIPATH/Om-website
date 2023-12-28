@@ -90,7 +90,7 @@
 
 
 .button {
-  background-color: red; /* Set the background color to red */
+  background-color: #ff3058;
   color: white; /* Set the text color to white */
   border: none; /* Remove the border */
   padding: 10px 20px; /* Add padding for better appearance */
@@ -102,5 +102,5 @@
 
 /* Add hover effect */
 .button:hover {
-  background-color: darkred; /* Darken the background color on hover */
+  background-color: #ff5979; 
 }
