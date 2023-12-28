@@ -15,7 +15,7 @@ const Courses = () => {
         </div>
         <div className={styles.content}>
           <h1 className={styles.title}>'O' Level</h1>
-          <p className={styles.desc}>‘O’ level course of DOEACC Scheme is equivalent to a Foundation Level Course in Computer Applications. Students can acquire this qualification by undergoing this course and passing the examination conducted by NIELIT. After completion of ‘O’ Level course, students can further enroll for next level IT course of NIELIT ‘A’ level. The course commences in the month of January and July every year.</p>
+          <p className={styles.desc}>'O' level course of DOEACC Scheme is equivalent to a Foundation Level Course in Computer Applications. Students can acquire this qualification by undergoing this course and passing the examination conducted by NIELIT. After completion of ‘O’ Level course, students can further enroll for next level IT course of NIELIT ‘A’ level. The course commences in the month of January and July every year.</p>
         </div>
       </Link>
       <Link href="/" className={styles.container}>
