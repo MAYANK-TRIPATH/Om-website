@@ -11,27 +11,27 @@ import Choose6 from "public/Choose6.jpg"
 const Testimonial = () => {
   const test = [
     {
-      title: 'AI-Image Generator',
+      title: 'Kunal Chaurasia',
       imageUrl: Choose9,
-      body: "Developed a full-stack AI Image Generator using MERN stack for generating unique images based on user inputs and pre-defined styles.", 
+      body: "Om Computer Institute transformed my skills and empowered me for competitive exams. The comprehensive courses and dedicated staff made my journey truly enriching.", 
       
     },
     {
-      title: 'Youtube_clone',
+      title: 'Amit Verma',
       imageUrl: Choose8,
-      body: 'Develop a fully functional YouTube clone web application using modern front-end technologies and Rapid API.',
+      body: 'Inclusive, visionary, and future-forward—Om Computer Institute goes beyond. Achieving success in exams became a reality, thanks to their commitment to excellence',
       
     },
     {
-      title: 'Real-Estate Site',
+      title: 'Saurabh Pandey',
       imageUrl: Choose7,
-      body: 'Designed and developed a Real Estate application using ReactJS and TailwindCSS. User-friendly and intuitive application',
+      body: 'A humble start led to remarkable heights! Grateful to Om Computer Institute for quality education, inclusive vision, and facilities that ensured my success.',
       
     },
     {
-      title: 'Crypto-Trans.',
+      title: 'Abhilash Maurya',
       imageUrl: Choose6,
-      body: 'It\'s a WEB 3.0 based WebApp that has a feature of transaction of Ethereum. UI is made by using ReactJS, Tailwind CSS, Metamask Wallet',
+      body: 'Empowering students from rural areas, Om Computer Institute breaks barriers. Affordable excellence and language proficiency courses broadened my horizons.',
       
     },
    
