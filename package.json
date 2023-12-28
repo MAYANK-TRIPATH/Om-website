@@ -11,9 +11,10 @@
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "emailjs": "^4.0.3",
-    "next": "latest",
+    "next": "^13.5.3",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "sharp": "^0.33.1"
   },
   "devDependencies": {
     "eslint": "latest",
