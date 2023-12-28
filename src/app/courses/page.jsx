@@ -2,8 +2,8 @@ import React from 'react';
 import styles from './page.module.css'
 import Link from "next/link";
 import Image from "next/image"
-import Course1 from "public/Course1.png"
-import Course2 from "public/Course2.png"
+import Course1 from "public/Course1.svg"
+import Course2 from "public/Course2.svg"
 
 const Courses = () => {
   return (
