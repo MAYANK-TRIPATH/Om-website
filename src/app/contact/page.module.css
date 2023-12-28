@@ -87,3 +87,20 @@
       flex-direction: column;
     }
   }
+
+
+.button {
+  background-color: red; /* Set the background color to red */
+  color: white; /* Set the text color to white */
+  border: none; /* Remove the border */
+  padding: 10px 20px; /* Add padding for better appearance */
+  font-size: 16px; /* Adjust font size */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 5px; /* Add rounded corners */
+  margin-left: 175px;
+}
+
+/* Add hover effect */
+.button:hover {
+  background-color: darkred; /* Darken the background color on hover */
+}
