@@ -16,7 +16,7 @@ const Centres = () => {
       </Link>
       <Link href="/#" className={styles.item}>
         {/* <span className={styles.title}>Choose 2</span> */}
-        <h1 className={styles.title}>GovindPur</h1>
+        <h1 className={styles.title}>Govindpur</h1>
       </Link>
       <Link href="/#" className={styles.item}>
         {/* <span className={styles.title}>Choose 3</span> */}

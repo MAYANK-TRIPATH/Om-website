@@ -29,7 +29,7 @@ const About = () => {
       <div className={styles.item}>
         <h1 className={styles.title}>Who Are We?</h1>
         <p className={styles.desc}>
-        In the bustling city of Prayagraj, where academic aspirations thrive, Om Computer Institute stands tall as a beacon of skill development and empowerment. The brainchild of <b>Mr. Ruchin Verma</b>, the institute's inception in <b>2015</b> marked a significant stride in addressing the dearth of vocational skills among students from remote areas and villages. Formerly known as <b>Om Typing Centre</b>, the institute recognized the crucial role of typing skills in various competitive examinations, a need often overlooked. <br/></p>
+        In the bustling city of Prayagraj, where academic aspirations thrive, Om Computer Institute stands tall as a beacon of skill development and empowerment. The brainchild of <b>Mr. Ruchin Verma</b>, the institute&apos;s inception in <b>2015</b> marked a significant stride in addressing the dearth of vocational skills among students from remote areas and villages. Formerly known as <b>Om Typing Centre</b>, the institute recognized the crucial role of typing skills in various competitive examinations, a need often overlooked. <br/></p>
 
           
     <h1 className={styles.title}>A Humble Beginning</h1>
@@ -41,7 +41,7 @@ The first branch near Salori, IERT College, Prayagraj, was a modest start that b
     <h1 className={styles.title}>Diverse Courses Catering to Varied Needs</h1>
     <p className={styles.desc}>
       
-Om Computer Institute prides itself on offering a diverse array of courses, catering to the dynamic demands of the modern job market. These courses are meticulously designed to empower students with practical skills, ensuring their relevance in today's competitive world.
+Om Computer Institute prides itself on offering a diverse array of courses, catering to the dynamic demands of the modern job market. These courses are meticulously designed to empower students with practical skills, ensuring their relevance in today&apos;s competitive world.
 <br/> <br/>
 <b>
 1. Professional Courses: </b> <br/><br/>
@@ -80,7 +80,7 @@ Om Computer Institute prides itself on offering a diverse array of courses, cate
 
 <h1 className={styles.title}>Examination Details</h1>
 <p className={styles.desc}>
-The institute's success is evident in the numerous selections achieved in competitive exams. High Court Review Officer, Assistant Review Officer, Stenographer, and Constable exams are just a glimpse of the achievements that showcase the institute's commitment to excellence.
+The institute&apos;s success is evident in the numerous selections achieved in competitive exams. High Court Review Officer, Assistant Review Officer, Stenographer, and Constable exams are just a glimpse of the achievements that showcase the institute&apos;s commitment to excellence.
 
         </p>
 
@@ -93,7 +93,7 @@ Om Computer Institute believes in breaking barriers to education, and each cours
 
 <b>1. Vocational Skills for Rural Empowerment: </b> 
 
-  The institute's origin story aligns with its commitment to uplift students from rural areas. Typing skills, often underestimated, play a pivotal role in various examinations, leveling the playing field for aspirants from remote regions.<br/><br/>
+  The institute&apos;s origin story aligns with its commitment to uplift students from rural areas. Typing skills, often underestimated, play a pivotal role in various examinations, leveling the playing field for aspirants from remote regions.<br/><br/>
 
 <b>2. Affordable Excellence: </b>
 
@@ -106,7 +106,7 @@ Om Computer Institute believes in breaking barriers to education, and each cours
 </p>
 
 <h1 className={styles.title}>Future-Forward Approach</h1>
-<p className={styles.desc}>Om Computer Institute's commitment doesn't end with the present. The visionary approach includes plans for digital and online education modes, ensuring that geographical limitations are overcome. The goal is not just to extend within Prayagraj but to branch out into different cities within the state, creating a network of empowerment and education.</p>
+<p className={styles.desc}>Om Computer Institute&apos;s commitment doesn&apos;t end with the present. The visionary approach includes plans for digital and online education modes, ensuring that geographical limitations are overcome. The goal is not just to extend within Prayagraj but to branch out into different cities within the state, creating a network of empowerment and education.</p>
 
         
       </div>
@@ -117,17 +117,15 @@ Om Computer Institute believes in breaking barriers to education, and each cours
     <p className={styles.desc}>
 Om Computer Institute stands not only as a provider of education but as a catalyst for transformation. From its inception to its expansion, the journey reflects a dedication to empowering students with skills that transcend geographical and socio-economic barriers. As it continues to evolve, the institute remains committed to its founding principles — accessible education, vocational empowerment, and a vision that encompasses the digital horizon.
 
-Embark on a learning journey with Om Computer Institute, where education knows no bounds, and every student's dream is a step closer to reality.</p>
+Embark on a learning journey with Om Computer Institute, where education knows no bounds, and every student&apos;s dream is a step closer to reality.</p>
     <br/>
     <div className={styles.element}>
     <Button url="/contact" text="Contact Us"/>
     <Image src='/about-img.svg' alt="about-img" width={400} height={200} />
 
-   
-    </div>
-   
 
-   </div>
+    </div>
+  </div>
   )
 }
 
