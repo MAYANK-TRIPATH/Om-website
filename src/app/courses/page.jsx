@@ -8,6 +8,7 @@ import course2 from "public/course2.png"
 const Courses = () => {
   return (
     <div className={styles.mainContainer}>
+      <h1 className={styles.mainTitle}>Courses Offered</h1>
       <Link href="/" className={styles.container}>
         <div className={styles.imageContainer}>
           <Image src={course1} alt="" width={400} height={250} className={styles.image} />
