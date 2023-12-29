@@ -8,7 +8,7 @@ const Centres = () => {
     <div className={styles.container}>
     <h1 className={styles.mainTitle}>Our Centres</h1>
     <h1 className={styles.selectTitle}>Our Allahabad Centres</h1>
-    
+
     <div className={styles.items}>
       <Link href="/#" className={styles.item}>
         {/* <span className={styles.title}>Choose 1</span> */}
@@ -32,11 +32,11 @@ const Centres = () => {
       </Link>
       <Link href="/#" className={styles.item1}>
         {/* <span className={styles.title}>Choose 2</span> */}
-        <h1 className={styles.title}>Locatioon</h1>
+        <h1 className={styles.title}>Allahpur</h1>
       </Link>
       <Link href="/#" className={styles.item1}>
         {/* <span className={styles.title}>Choose 3</span> */}
-        <h1 className={styles.title}>Location</h1>
+        <h1 className={styles.title}>Shukla Market</h1>
       </Link>
     </div>
   </div>

@@ -53,6 +53,7 @@ color: #000;
     transform: translate3d(0,-1px,0) scale(1.05);
 }
 
+
 .item:nth-child(1) {
     background: url("/Salori.jpg") center/cover;
 }
@@ -63,6 +64,12 @@ color: #000;
     background: url("/Baghara.jpg") center/cover;
 }
 .item1:nth-child(1) {
+    background: url("/Rajapur.jpg") center/cover;
+}
+.item1:nth-child(2) {
+    background: url("/Rajapur.jpg") center/cover;
+}
+.item1:nth-child(3) {
     background: url("/Rajapur.jpg") center/cover;
 }
 
