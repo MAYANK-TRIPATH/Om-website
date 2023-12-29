@@ -8,10 +8,26 @@
     animation: colorTransition 3s infinite linear;
 }
 
+@keyframes colorTransition {
+    0% {
+        color: white ;
+    }
+    50% {
+        color: #ff5979 ;
+    }
+    100% {
+        color: #ff3058 ;
+    }
+}
+
 .selectTitle {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.title{
+color: #000;
 }
 
 .items, .items2 {
@@ -25,19 +41,27 @@
 .item {
     width: 100%;
     box-sizing: border-box;
-    border: 3px solid #bbb;
+    border: 3px solid #ff3058;
     border-radius: 10px;
     height: 400px;
     margin: 0 0 20px 0;
+}
+.item:hover{
+    transform: translate3d(0,-1px,0) scale(1.1);
 }
 
 .item:nth-child(1) {
     background: url("/Salori.jpg") center/cover;
 }
-
-.item:nth-child(2) {
-    background: url("/Rajapur.jpg") center/cover;
+.item:nth-child(2){
+    background: url("/Govindpur.jpg") center/cover;
 }
+.item:nth-child(3) {
+    background: url("/Baghara.jpg") center/cover;
+}
+
+
+
 
 /* Media Query for Tablets and Larger Screens */
 @media (min-width: 600px) {
