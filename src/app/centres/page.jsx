@@ -16,27 +16,27 @@ const Centres = () => {
       </Link>
       <Link href="/#" className={styles.item}>
         {/* <span className={styles.title}>Choose 2</span> */}
-        <h1 className={styles.title}>Salori</h1>
+        <h1 className={styles.title}>GovindPur</h1>
       </Link>
       <Link href="/#" className={styles.item}>
         {/* <span className={styles.title}>Choose 3</span> */}
-        <h1 className={styles.title}>Salori</h1>
+        <h1 className={styles.title}>Bhaghra</h1>
       </Link>
     </div>
 
 
     <div className={styles.items2}>
-      <Link href="/#" className={styles.item}>
+      <Link href="/#" className={styles.item1}>
         {/* <span className={styles.title}>Choose 4</span> */}
-        <h1 className={styles.title}>Salori</h1>
+        <h1 className={styles.title}>Rajapur</h1>
       </Link>
-      <Link href="/#" className={styles.item}>
+      <Link href="/#" className={styles.item1}>
         {/* <span className={styles.title}>Choose 2</span> */}
-        <h1 className={styles.title}>Salori</h1>
+        <h1 className={styles.title}>Locatioon</h1>
       </Link>
-      <Link href="/#" className={styles.item}>
+      <Link href="/#" className={styles.item1}>
         {/* <span className={styles.title}>Choose 3</span> */}
-        <h1 className={styles.title}>Salori</h1>
+        <h1 className={styles.title}>Location</h1>
       </Link>
     </div>
   </div>

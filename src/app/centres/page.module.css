@@ -38,7 +38,7 @@ color: #000;
     align-items: center;
 }
 
-.item {
+.item, .item1 {
     width: 100%;
     box-sizing: border-box;
     border: 3px solid #ff3058;
@@ -59,7 +59,9 @@ color: #000;
 .item:nth-child(3) {
     background: url("/Baghara.jpg") center/cover;
 }
-
+.item1:nth-child(1) {
+    background: url("/Rajapur.jpg") center/cover;
+}
 
 
 
