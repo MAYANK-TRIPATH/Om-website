@@ -23,12 +23,11 @@ const Footer = () => {
         <a href='/centres'>Centres</a>
         <a href='/centres'>Sitemap</a>
         <a href="https://www.instagram.com/om.skill/" className="instagram-link" aria-label="Instagram"> Instagram</a>
-       
 
         <a href='/centres'>Gallery</a>
         <a href='/'></a>
-        <a href="https://www.linkedin.com/company/om-skills-institute/about/" className="linkedin-link" aria-label="LinkedIn">LinkedIN</a>
-
+        {/* <a href="https://www.linkedin.com/company/om-skills-institute/about/" className="linkedin-link" aria-label="LinkedIn">LinkedIN</a> */}
+        <a href='sms:+917570836804' class='text-message' aria-label=''>Text Message</a>
 
       </div>
 
