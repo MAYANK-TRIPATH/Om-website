@@ -104,6 +104,18 @@ Embark on a transformative journey with our Typing Course, available in both Eng
         </div>
       </Link>
 
+      <Link href="/" className={styles.container}>
+        <div className={styles.imageContainer}>
+          <Image src={course2} alt="" width={400} height={250} className={styles.image} />
+        </div>
+        <div className={styles.content}>
+          <h1 className={styles.title}>Spoken English</h1>
+          <p className={styles.desc}>
+          Unleash your oratory potential with our Spoken English Course. Navigate the intricacies of language fluency and refine your communication prowess. Through engaging modules and practical dialogues, master the art of effective expression. Whether for career growth or social interactions, our program empowers you to articulate thoughts with clarity and charisma. Join us, and let your words become a powerful instrument in shaping your success.
+        </p>
+        </div>
+      </Link>
+
     </div>
   )
 }
