@@ -80,7 +80,9 @@ Embark on a transformative journey with our Typing Course, available in both Eng
 
       <Link href="/" className={styles.container}>
         <div className={styles.imageContainer}>
-          <Image src={course2} alt="" width={400} height={250} className={styles.image} />
+          <Image src={course2
+          
+          } alt="" width={400} height={250} className={styles.image} />
         </div>
         <div className={styles.content}>
           <h1 className={styles.title}>Short Hand (English/Hindi)</h1>
@@ -97,7 +99,7 @@ Embark on a transformative journey with our Typing Course, available in both Eng
         <div className={styles.content}>
           <h1 className={styles.title}>Graphic Design</h1>
           <p className={styles.desc}>
-          Unlock your creative potential with our Graphic Design Course. Dive into a dynamic learning experience where you'll grasp design principles, master industry-standard tools, and unleash your imagination. From creating stunning visuals to honing your digital artistry, our comprehensive curriculum empowers aspiring designers. Elevate your skills with hands-on projects and expert guidance. Join us and embark on a visual journey to turn your ideas into captivating designs.
+          Unlock your creative potential with our Graphic Design Course. Dive into a dynamic learning experience where you&apos;ll grasp design principles, master industry-standard tools, and unleash your imagination. From creating stunning visuals to honing your digital artistry, our comprehensive curriculum empowers aspiring designers. Elevate your skills with hands-on projects and expert guidance. Join us and embark on a visual journey to turn your ideas into captivating designs.
           </p>
         </div>
       </Link>

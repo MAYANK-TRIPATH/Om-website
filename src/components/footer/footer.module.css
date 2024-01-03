@@ -35,7 +35,7 @@
       /* width: fit-content; */
       flex-direction: column;
       /* display: flex; */
-      align-items:flex-center;
+      align-items:flex-start;
   }
 
   /* .logoContainer{ */
@@ -44,6 +44,7 @@
     /* width: 10px; */
     /* size: 10px; */
   /* } */
+  
   .linkGrid {
       margin-bottom: 20px;
       gap: 5px;
