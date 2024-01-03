@@ -13,7 +13,6 @@ const Footer = () => {
         <b>CONTACT US</b>
         
         
-        
         <a href='/about'>About Us</a>
         <a href='/'>Privacy Policy</a>
         <a href="tel:+91 75708 36804" className="phone-link" aria-label="Call us">&#x260E; Call-Us</a>
@@ -27,7 +26,7 @@ const Footer = () => {
         <a href='/gallery'>Gallery</a>
         <a href='/'></a>
         {/* <a href="https://www.linkedin.com/company/om-skills-institute/about/" className="linkedin-link" aria-label="LinkedIn">LinkedIN</a> */}
-        <a href='sms:+917570836804' class='text-message' aria-label=''>Text Message</a>
+        <a href='sms:+917570836804' className='text-message' aria-label=''>Text Message</a>
 
       </div>
 
