@@ -106,7 +106,7 @@ Embark on a transformative journey with our Typing Course, available in both Eng
 
       <Link href="/" className={styles.container}>
         <div className={styles.imageContainer}>
-          <Image src={course1} alt="" width={400} height={250} className={styles.image} />
+          <Image src={course2} alt="" width={400} height={250} className={styles.image} />
         </div>
         <div className={styles.content}>
           <h1 className={styles.title}>Spoken English</h1>
