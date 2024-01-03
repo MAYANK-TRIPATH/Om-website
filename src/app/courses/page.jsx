@@ -56,6 +56,7 @@ After completing the ADCA course, many small firms recruit candidates for jobs s
           <p className={styles.desc}>AutoCAD is a 2D and 3D computer-aided design (CAD) software application for desktop, web, and mobile developed by Autodesk. It is a general drafting and design application used in industry by architects, project managers, engineers, graphic designers, city planners and other professionals to prepare technical drawings.</p>
         </div>
       </Link>
+
       <Link href="/" className={styles.container}>
         <div className={styles.imageContainer}>
           <Image src={course2} alt="" width={400} height={250} className={styles.image} />
@@ -63,6 +64,17 @@ After completing the ADCA course, many small firms recruit candidates for jobs s
         <div className={styles.content}>
           <h1 className={styles.title}>Basic Computer</h1>
           <p className={styles.desc}>In step with effort to achieve the objective of achieving computer literacy in an inclusive manner, NIELIT has launched a new programme, “Basic Computer Course (BCC)”. The objective of the course is to impart basic level computer appreciation programme with more emphasis on hands on training. Initially, the course was conceived as to boost the concept of introducing a course on computer fundamentals, especially for students, studying vocational courses at ITIs/ITCs.</p>
+        </div>
+      </Link>
+
+      <Link href="/" className={styles.container}>
+        <div className={styles.imageContainer}>
+          <Image src={course1} alt="" width={400} height={250} className={styles.image} />
+        </div>
+        <div className={styles.content}>
+          <h1 className={styles.title}>Typing (English/Hindi)</h1>
+          <p className={styles.desc}>
+Embark on a transformative journey with our Typing Course, available in both English and Hindi. Master the art of efficient keyboarding through interactive lessons, engaging exercises, and personalized feedback. Boost your typing speed and accuracy, unlocking a world of productivity. Elevate your skills with our user-friendly and bilingual learning experience.</p>
         </div>
       </Link>
     </div>
