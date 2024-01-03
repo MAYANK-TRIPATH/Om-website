@@ -77,6 +77,31 @@ After completing the ADCA course, many small firms recruit candidates for jobs s
 Embark on a transformative journey with our Typing Course, available in both English and Hindi. Master the art of efficient keyboarding through interactive lessons, engaging exercises, and personalized feedback. Boost your typing speed and accuracy, unlocking a world of productivity. Elevate your skills with our user-friendly and bilingual learning experience.</p>
         </div>
       </Link>
+
+      <Link href="/" className={styles.container}>
+        <div className={styles.imageContainer}>
+          <Image src={course2} alt="" width={400} height={250} className={styles.image} />
+        </div>
+        <div className={styles.content}>
+          <h1 className={styles.title}>Short Hand (English/Hindi)</h1>
+          <p className={styles.desc}>
+
+          Embark on a journey to fast-track your note-taking skills with our Shorthand Course, available in both English and Hindi. Master the art of concise writing, boosting your efficiency in meetings, lectures, and more.<br/> Our comprehensive lessons, enriched with practical exercises, will empower you to capture information effortlessly. Elevate your communication prowess with this versatile and bilingual learning experience.</p>
+        </div>
+      </Link>
+
+      <Link href="/" className={styles.container}>
+        <div className={styles.imageContainer}>
+          <Image src={course1} alt="" width={400} height={250} className={styles.image} />
+        </div>
+        <div className={styles.content}>
+          <h1 className={styles.title}>Graphic Design</h1>
+          <p className={styles.desc}>
+          Unlock your creative potential with our Graphic Design Course. Dive into a dynamic learning experience where you'll grasp design principles, master industry-standard tools, and unleash your imagination. From creating stunning visuals to honing your digital artistry, our comprehensive curriculum empowers aspiring designers. Elevate your skills with hands-on projects and expert guidance. Join us and embark on a visual journey to turn your ideas into captivating designs.
+          </p>
+        </div>
+      </Link>
+
     </div>
   )
 }
