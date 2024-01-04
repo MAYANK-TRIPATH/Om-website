@@ -1,9 +1,10 @@
-import React from 'react';
+"use client"
+
+import React, { useState } from 'react';
 import Link from 'next/link';
 import styles from './navbar.module.css';
 import Image from 'next/image';
 import DarkModeToggle from '../DarkModeToggle/DarkModeToggle';
-
 
 const links = [
   {
@@ -36,31 +37,50 @@ const links = [
     title: "Gallery",
     url: "/gallery",
   },
-  
 ];
 
 const Navbar = () => {
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!isMobileMenuOpen);
+  };
 
   return (
     <div className={styles.container}>
       <a href="/">
-      <Image src="/logo.png"  alt="logo" width ={90} height={80}/>
+        <Image src="/logo.png" alt="logo" width={90} height={80} />
       </a>
       <div className={styles.links}>
-        
-        {links.map((link) => (
-          <Link key={link.id} href={link.url}>
-            {link.title}
-          </Link>
-        ))}
+        <div className={styles.hamburger} onClick={toggleMobileMenu}>
+          <div className={`${styles.bar} ${isMobileMenuOpen ? styles.open : ''}`} />
+          <div className={`${styles.bar} ${isMobileMenuOpen ? styles.open : ''}`} />
+          <div className={`${styles.bar} ${isMobileMenuOpen ? styles.open : ''}`} />
+        </div>
 
-          
-        <DarkModeToggle/>
+        {/* Conditionally render links or mobile menu */}
+        {isMobileMenuOpen ? (
+          <div className={styles.mobileMenu}>
+            {links.map((link) => (
+              <Link key={link.id} href={link.url}>
+                {link.title}
+              </Link>
+            ))}
+          </div>
+        ) : (
+          // Links for larger screens
+          <div className={styles.links}>
+            {links.map((link) => (
+              <Link key={link.id} href={link.url}>
+                {link.title}
+              </Link>
+            ))}
+            <DarkModeToggle />
+          </div>
+        )}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

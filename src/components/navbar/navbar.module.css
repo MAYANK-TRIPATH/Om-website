@@ -3,8 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 0 60px; */
-    padding-bottom: 0 20px;
+    padding-bottom: 20px; /* Corrected padding declaration */
 }
 
 .logo {
@@ -14,7 +13,7 @@
     color: #000;
 }
 
-.links{
+.links {
     display: flex;
     align-items: center;
     gap: 25px;
@@ -26,11 +25,10 @@
     color: #f9f7f7; /* Set your default link color */
 }
 
-.links :hover {
-    color: #ff3058; 
+.links a:hover {
+    color: #ff3058;
     text-decoration: underline;
-    text-underline-offset:5px;
-
+    text-underline-offset: 5px;
 }
 
 @media screen and (max-width: 600px) {
@@ -48,5 +46,42 @@
     .links {
         flex-direction: column;
         gap: 10px;
+    }
+
+    /* New styles for mobile menu */
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #e4e0e0;
+        margin: 5px 0;
+        transition: 0.5s;
+    }
+
+    .open {
+        transform: rotate(-1deg) translate(-5px, 6px);
+    }
+
+    .mobileMenu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #fff; /* Set your background color */
+        padding: 10px;
+        box-shadow: 0px 4px 6px rgba(245, 241, 241, 0.1);
+    }
+
+    .mobileMenu a {
+        text-decoration: none;
+        color: #000; /* Set your mobile menu link color */
+        margin-bottom: 10px;
     }
 }
