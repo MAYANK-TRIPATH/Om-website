@@ -1,5 +1,5 @@
 .container {
-    height: 100px;
+    height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,6 +37,8 @@
         align-items: center;
         height: auto;
         gap: 10px;
+        padding-top:10px ;
+        padding-bottom: 0px;
     }
 
     .logo {
@@ -58,10 +60,10 @@
 
     .bar {
         width: 25px;
-        height: 3px;
-        background-color: #e4e0e0;
+        height: 3.5px;
+        background-color: #ff3058;
         margin: 5px 0;
-        transition: 0.5s;
+        transition: 0.3s;
     }
 
     .open {
@@ -69,6 +71,7 @@
     }
 
     .mobileMenu {
+        text-decoration: none;
         display: none;
         flex-direction: column;
         position: absolute;
@@ -76,10 +79,14 @@
         left: 0;
         width: 100%;
         background-color: #fff;
+        /* background-color: #fff;  */
+        transition: transform 0.3s ease-in-out 0.3s;
         padding: 10px;
         box-shadow: 0px 4px 6px rgba(245, 241, 241, 0.1);
     }
-
+.mobileMenu .open{
+    transform: translateY(0);
+}
     .mobileMenu a {
         text-decoration: none;
         color: #000; /* Set your mobile menu link color */
