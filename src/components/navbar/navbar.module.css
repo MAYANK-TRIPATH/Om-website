@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 20px; /* Corrected padding declaration */
+    padding-bottom: 8px; /* Corrected padding declaration */
 }
 
 .logo {
@@ -55,6 +55,7 @@
         display: flex;
         flex-direction: column;
         cursor: pointer;
+        margin-left: 310px;
     }
 
     .bar {
@@ -77,6 +78,7 @@
         top: 80px;
         left: 0;
         width: 100%;
+        background-color: #fff;
         /* background-color: #fff;  */
         transition: transform 0.3s ease-in-out 0.3s;
         padding: 10px;
