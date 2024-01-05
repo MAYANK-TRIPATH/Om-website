@@ -40,7 +40,7 @@ const links = [
 ];
 
 const Navbar = () => {
-  const [isMobileMenuOpen, setMobileMenuOpen] = useState(true);
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
