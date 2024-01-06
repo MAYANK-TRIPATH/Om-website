@@ -1,9 +1,10 @@
 .container {
     height: 120px;
+    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 8px; /* Corrected padding declaration */
+    padding-bottom: 3px; /* Corrected padding declaration */
 }
 
 .logo {
@@ -34,11 +35,20 @@
 @media screen and (max-width: 600px) {
     .container {
         flex-direction: column;
-        align-items: center;
+        /* justify-content: space-between; */
+        /* align-items: center; */
         height: auto;
         gap: 10px;
         padding-top:10px ;
         padding-bottom: 0px;
+    }
+
+    .logobar{
+flex-direction: row;
+justify-content: space-between;
+display: flex;
+/* width: 100%; */
+align-items: center;
     }
 
     .logo {
@@ -48,9 +58,10 @@
     .links {
         flex-direction: column;
         gap: 10px;
+        width: 100%;
+        align-items: center;
     }
 
-    /* New styles for mobile menu */
     .hamburger {
         display: flex;
         flex-direction: column;
