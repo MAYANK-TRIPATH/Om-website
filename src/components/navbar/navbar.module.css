@@ -61,7 +61,6 @@ align-items: center;
         align-items: center;
     }
 
-    /* New styles for mobile menu */
     .hamburger {
         display: flex;
         flex-direction: column;
