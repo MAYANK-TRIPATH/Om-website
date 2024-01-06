@@ -40,7 +40,7 @@ const links = [
 ];
 
 const Navbar = () => {
-  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(true);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
@@ -66,22 +66,27 @@ const Navbar = () => {
 
         {/* Conditionally render links or mobile menu */}
         {!isMobileMenuOpen ? (
+
           <div className={styles.mobileMenu}>
-            {links.map((link) => (
-              <Link key={link.id} href={link.url}>
-                {link.title}
-              </Link>
-            ))}
-          </div>
-        ) : (
+
           // Links for larger screens
           <div className={styles.links}>
+          
             {links.map((link) => (
               <Link key={link.id} href={link.url}>
                 {link.title}
               </Link>
             ))}
             <DarkModeToggle />
+          </div>
+        ) : (
+          // Mobile menu for smaller screens
+          <div className={styles.mobileMenu}>
+            {links.map((link) => (
+              <Link key={link.id} href={link.url}>
+                {link.title}
+              </Link>
+            ))}
           </div>
         )}
       </div>
