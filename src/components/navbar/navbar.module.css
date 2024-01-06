@@ -1,9 +1,10 @@
 .container {
     height: 120px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 8px; /* Corrected padding declaration */
+    padding-bottom: 3px; /* Corrected padding declaration */
 }
 
 .logo {
@@ -61,7 +62,6 @@ align-items: center;
         align-items: center;
     }
 
-    /* New styles for mobile menu */
     .hamburger {
         display: flex;
         flex-direction: column;
