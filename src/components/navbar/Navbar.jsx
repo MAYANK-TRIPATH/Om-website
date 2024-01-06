@@ -65,7 +65,7 @@ const Navbar = () => {
       <div className={styles.links}>
 
         {/* Conditionally render links or mobile menu */}
-        {!isMobileMenuOpen ? (
+        {isMobileMenuOpen ? (
           <div className={styles.mobileMenu}>
             {links.map((link) => (
               <Link key={link.id} href={link.url}>
