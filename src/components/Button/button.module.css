@@ -8,3 +8,11 @@
   width: max-content;
   color: white;
 }
+
+@media (max-width:600px){
+  .container{
+    margin-left: 100px;
+  }
+ 
+  }
+  
