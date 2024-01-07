@@ -1,15 +1,14 @@
 .container {
     height: 120px;
-    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 3px; /* Corrected padding declaration */
+    padding-bottom: 20px; 
 }
 
 .logo {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
     text-decoration: none;
     color: #000;
 }
@@ -17,13 +16,13 @@
 .links {
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 35px;
     font-weight: 600;
 }
 
 .links a {
     text-decoration: none;
-    color: #f9f7f7; /* Set your default link color */
+    color: #f9f7f7;
 }
 
 .links a:hover {
@@ -35,8 +34,8 @@
 @media screen and (max-width: 600px) {
     .container {
         flex-direction: column;
-        /* justify-content: space-between; */
-        /* align-items: center; */
+        justify-content: space-between;
+        align-items: center;
         height: auto;
         gap: 10px;
         padding-top:10px ;
@@ -44,12 +43,12 @@
     }
 
     .logobar{
-flex-direction: row;
-justify-content: space-between;
-display: flex;
-/* width: 100%; */
-align-items: center;
-    }
+        flex-direction: row;
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        align-items: center;
+            }
 
     .logo {
         margin-bottom: 20px;
@@ -58,15 +57,13 @@ align-items: center;
     .links {
         flex-direction: column;
         gap: 10px;
-        width: 100%;
-        align-items: center;
     }
 
+    /* New styles for mobile menu */
     .hamburger {
         display: flex;
         flex-direction: column;
         cursor: pointer;
-        margin-left: 310px;
     }
 
     .bar {
@@ -89,15 +86,16 @@ align-items: center;
         top: 80px;
         left: 0;
         width: 100%;
-        background-color: #fff;
         /* background-color: #fff;  */
         transition: transform 0.3s ease-in-out 0.3s;
         padding: 10px;
-        box-shadow: 0px 4px 6px rgba(245, 241, 241, 0.1);
+        box-shadow: 0px 4px 6px #f5f1f11a;
     }
+    
 .mobileMenu .open{
     transform: translateY(0);
 }
+
     .mobileMenu a {
         text-decoration: none;
         color: #000; /* Set your mobile menu link color */
