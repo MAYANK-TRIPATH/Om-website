@@ -16,7 +16,9 @@ export default function Home() {
           Empower your future with OM Institute !
           </h1>
           <p className={styles.desc}>
-          Unlocking various opportunities through specialized Computer-aided courses and achieving excellence with over <b>10000+</b> selections in State-Level one-day examinations like <b>R.O./A.R.O./UPSSSC</b> 
+          Unlocking various opportunities through specialized Computer-aided courses
+           and achieving excellence with over <b>10000+</b> selections in State-Level
+            one-day examinations like <b>R.O./A.R.O./UPSSSC</b> 
           </p>
         
           <Button url="/contact" text="Enroll Now !!"/>
