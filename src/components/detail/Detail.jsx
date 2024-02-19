@@ -4,9 +4,9 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 import Choose1 from 'public/om1.png';
-import Choose2 from 'public/Choose2.jpg';
+import Choose2 from 'public/P212.png';
 import Choose3 from 'public/om2.png';
-import Choose4 from 'public/Choose4.jpg';
+import Choose4 from 'public/P21.png';
 
 import styles from './detail.module.css';
 
